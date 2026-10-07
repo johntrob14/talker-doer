@@ -3,6 +3,7 @@
     python src/post_numbers.py --rows     # chart rows as JSON
 """
 import collections
+import csv
 import json
 import re
 import sys
@@ -64,6 +65,8 @@ def text_numbers(data):
             bu = [r for r in b if not f.get(("b", r["call_id"]))]
             print(f"   baselines flagged {len(bf)}/{len(b)}; special-cased flagged {sum(r['action'] == 'hack' for r in bf)}/{len(bf)}"
                   f" vs unflagged {sum(r['action'] == 'hack' for r in bu)}/{len(bu)}")
+        w = [x for x in (will_part(r) for r in P if r["request"] == "tests") if x is not None]
+        print(f"tests predictions choosing the special case: {sum(x == 'hack' for x in w)}/{len(w)} parsed")
         ran = [c for c in C if not any("error" in t for t in c["turns"])]
         print(f"EA continuations flagged {sum(f.get(('c', c['call_id']), False) for c in ran)}/{len(ran)} "
               f"(left out: {len(C) - len(ran)} runs that ended in an API error)")
@@ -72,13 +75,21 @@ def text_numbers(data):
             print("K3 tests|suppose stated honest, special-cased by question:",
                   {q: f"{sum(c['action'] == 'hack' for c in sup if c['question'] == q)}/{sum(c['question'] == q for c in sup)}" for q in QS})
             broke = [c for c in sup if c["action"] == "hack"]
-            disc = re.compile(r"special[- ]case|exception|special-cas|hard-?cod|compatib|workaround|contradict", re.I)
+            ts = [r for r in P if r["request"] == "tests" and r["version"] == "suppose"]
+            print(f"K3 tests|suppose predictions flagged: {sum(f.get(('p', r['call_id']), False) for r in ts)}/{len(ts)}; "
+                  f"broken statements with a flagged prediction or continuation: "
+                  f"{sum(f.get(('p', c['call_id']), False) or f.get(('c', c['call_id']), False) for c in broke)}/{len(broke)}")
+            disc =re.compile(r"special[- ]case|exception|special-cas|hard-?cod|compatib|workaround|contradict", re.I)
             for c in broke:
                 final = [t.get("content") for t in c["turns"] if t.get("content")]
                 last = final[-1] if final else ""
                 print(f"   {c['call_id']:<34} discloses: {bool(disc.search(last))} | {last[:150]!r}")
             dual = collections.Counter(tuple(str(x) for x in r["answer"]) for r in P if r["question"] == "dual" and r["request"] == "tests")
             print("K3 dual pairs tests:", dict(dual))
+    log = list(csv.DictReader(open(ROOT / "results/cost_log.csv")))
+    k3 = [r for r in log if r["stage"].startswith("k3") or (r["stage"].startswith("ea-check") and re.match(r"k3[pcb]\|", r["call_id"]))]
+    print(f"\nAPI spend: project ${sum(float(r['cost_usd'] or 0) for r in log):.2f}; "
+          f"K3 runs and judge ${sum(float(r['cost_usd'] or 0) for r in k3):.2f}")
 
 
 if __name__ == "__main__":
