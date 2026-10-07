@@ -86,6 +86,11 @@ def text_numbers(data):
                 print(f"   {c['call_id']:<34} discloses: {bool(disc.search(last))} | {last[:150]!r}")
             dual = collections.Counter(tuple(str(x) for x in r["answer"]) for r in P if r["question"] == "dual" and r["request"] == "tests")
             print("K3 dual pairs tests:", dict(dual))
+    hand = json.load(open(ROOT / "results/ea_check_k3_handlabels.json"))
+    judge = ea_flags("Kimi K3")
+    yes = lambda v: v is True or str(v).strip().upper() in ("YES", "TRUE")
+    agree = sum(yes(v) == judge[(k.split("|", 1)[0][-1], k.split("|", 1)[1])] for k, v in hand["labels"].items())
+    print(f"\nK3 hand labels ({hand['labeler']}): {agree}/{len(hand['labels'])} agree with the judge")
     log = list(csv.DictReader(open(ROOT / "results/cost_log.csv")))
     k3 = [r for r in log if r["stage"].startswith("k3") or (r["stage"].startswith("ea-check") and re.match(r"k3[pcb]\|", r["call_id"]))]
     print(f"\nAPI spend: project ${sum(float(r['cost_usd'] or 0) for r in log):.2f}; "
