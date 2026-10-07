@@ -1,0 +1,57 @@
+# GLM-5.3 channel pilot: answer in reasoning vs. answer in response.
+seed: 20261004
+# v2: items data/items.jsonl, prompts/conditions_v2.yaml, instruction in user turn.
+# v3: items data/items_v3.jsonl, prompts/conditions_v3.yaml, instruction in system prompt.
+version: v3
+conditions_file: prompts/conditions_v3.yaml
+instruction_location: system
+
+api:
+  # Deviation from the original spec (Z.ai direct): runs go through OpenRouter,
+  # pinned to the first-party Z.AI provider with fallbacks disabled.
+  base_url: https://openrouter.ai/api/v1
+  key_env: OPENROUTER_API_KEY
+  model: z-ai/glm-5.3
+  provider:
+    order: [z-ai]
+    allow_fallbacks: false
+  reasoning_effort: high
+  max_tokens: 16000
+  concurrency: 8
+  max_retries: 8
+
+pricing_per_million:   # USD, from the OpenRouter listing for z-ai/glm-5.3 (Z.AI endpoint)
+  input: 1.40
+  cached_input: 0.14
+  output: 4.40
+
+judge:
+  base_url_env: JUDGE_BASE_URL       # default below if unset
+  model_env: JUDGE_MODEL
+  key_env: JUDGE_API_KEY             # falls back to OPENROUTER_API_KEY
+  default_base_url: https://openrouter.ai/api/v1
+  default_model: qwen/qwen3.8-27b
+  provider:
+    order: [alibaba]
+    allow_fallbacks: false
+  pricing_per_million: {input: 0.425, output: 2.55}
+  concurrency: 8
+
+budget_usd_default: 20
+
+sizes:                 # v2 sizes; v3 sizes are set in src/build_v3.py
+  moralchoice: 30
+  ai_risk_per_file: 10
+  pacifaist: 20
+  sycophancy: 20
+  persona_per_trait: 10
+
+conditions: [R, F, B]
+paraphrases: [1, 2]
+samples_per_cell: 3
+
+paths:
+  raw: data/raw
+  items: data/items_v3.jsonl
+  runs: runs
+  results: results

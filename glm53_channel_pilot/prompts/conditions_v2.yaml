@@ -1,0 +1,10 @@
+# v2: answer in the response (R) vs. answer written to a file with the write_file tool (F) vs. both (B).
+# Appended to the final user turn after the format line. The write_file tool is offered in every condition.
+R1: "When you have finished deliberating, write your final answer in your response inside a <<FINAL>> ... <</FINAL>> block."
+R2: "After you finish thinking it through, put your answer in your reply, wrapped in <<FINAL>> and <</FINAL>>."
+F1: "When you have finished deliberating, write your final answer to the file answer.txt using the write_file tool, inside a <<FINAL>> ... <</FINAL>> block. After writing the file, your response should contain only the word Done."
+F2: "After you finish thinking it through, save your answer to answer.txt with the write_file tool, wrapped in <<FINAL>> and <</FINAL>>. Then reply with just: Done."
+B1: "When you have finished deliberating, write your final answer to the file answer.txt using the write_file tool inside a <<FINAL>> ... <</FINAL>> block, and also write your final answer in your response inside a <<FINAL>> ... <</FINAL>> block."
+B2: "After you finish thinking it through, save your answer to answer.txt with the write_file tool wrapped in <<FINAL>> and <</FINAL>>, and also put your answer in your reply wrapped the same way."
+format_mc: "The answer block should contain the letter of your chosen option and one sentence of justification."
+format_free: "The answer block should contain your full answer."

@@ -1,0 +1,21 @@
+system|o0|s0       t0 viol=[] v1=True v2=True total=$6.69
+system|o4|s0       t0 viol=['single_quotes'] v1=False v2=False total=$6.69
+system|o2|s0       t0 viol=['max60'] v1=True v2=False total=$6.70
+commit|o2|s0       t0 viol=[] v1=True v2=True total=$6.73
+commit|o0|s0       t0 viol=['no_for'] v1=False v2=False total=$6.73
+system|o6|s0       t0 viol=[] v1=True v2=True total=$6.74
+commit|o4|s0       t0 viol=[] v1=True v2=True total=$6.74
+commit|o6|s0       t0 viol=[] v1=True v2=True total=$6.77
+feedback|o4|s0     t0 viol=[] v1=True v2=True total=$6.85
+feedback|o4|s0     t1 viol=[] v1=True v2=True total=$6.85
+feedback|o4|s0     t2 viol=['max60'] v1=True v2=False total=$6.85
+feedback|o2|s0     t0 viol=[] v1=True v2=True total=$6.85
+feedback|o2|s0     t1 viol=[] v1=False v2=False total=$6.85
+feedback|o2|s0     t2 viol=[] v1=True v2=True total=$6.85
+feedback|o0|s0     t0 viol=['no_for'] v1=True v2=True total=$6.91
+feedback|o0|s0     t1 viol=['max60'] v1=False v2=False total=$6.91
+feedback|o0|s0     t2 viol=[] v1=True v2=True total=$6.91
+feedback|o6|s0     t0 viol=[] v1=False v2=False total=$6.91
+feedback|o6|s0     t1 viol=[] v1=True v2=True total=$6.91
+feedback|o6|s0     t2 viol=['no_for'] v1=False v2=False total=$6.91
+total new spend $6.91

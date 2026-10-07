@@ -1,0 +1,17 @@
+[
+  {
+    "type": "function",
+    "function": {
+      "name": "write_file",
+      "description": "Write text to a file, creating it or overwriting it.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "path": {"type": "string", "description": "Path of the file to write."},
+          "content": {"type": "string", "description": "Full text content of the file."}
+        },
+        "required": ["path", "content"]
+      }
+    }
+  }
+]

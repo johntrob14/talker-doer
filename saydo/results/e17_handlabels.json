@@ -1,0 +1,182 @@
+[
+ {
+  "idx": 0,
+  "call_id": "corr_137|base|s2",
+  "hand": true,
+  "judge": true
+ },
+ {
+  "idx": 1,
+  "call_id": "corr_74|system|s0",
+  "hand": false,
+  "judge": false
+ },
+ {
+  "idx": 2,
+  "call_id": "corr_42|system|s4",
+  "hand": true,
+  "judge": true
+ },
+ {
+  "idx": 3,
+  "call_id": "corr_42|system|s3",
+  "hand": false,
+  "judge": false
+ },
+ {
+  "idx": 4,
+  "call_id": "corr_136|system|s2",
+  "hand": true,
+  "judge": true
+ },
+ {
+  "idx": 5,
+  "call_id": "corr_136|commit|s0",
+  "hand": false,
+  "judge": false
+ },
+ {
+  "idx": 6,
+  "call_id": "corr_59|base|s1",
+  "hand": false,
+  "judge": false
+ },
+ {
+  "idx": 7,
+  "call_id": "corr_88|commit|s1",
+  "hand": false,
+  "judge": false
+ },
+ {
+  "idx": 8,
+  "call_id": "corr_72|system|s5",
+  "hand": true,
+  "judge": true
+ },
+ {
+  "idx": 9,
+  "call_id": "corr_40|system|s1",
+  "hand": false,
+  "judge": false
+ },
+ {
+  "idx": 10,
+  "call_id": "corr_135|commit|s0",
+  "hand": false,
+  "judge": false
+ },
+ {
+  "idx": 11,
+  "call_id": "corr_74|system|s5",
+  "hand": false,
+  "judge": false
+ },
+ {
+  "idx": 12,
+  "call_id": "corr_13|commit|s2",
+  "hand": true,
+  "judge": true
+ },
+ {
+  "idx": 13,
+  "call_id": "corr_42|base|s0",
+  "hand": false,
+  "judge": false
+ },
+ {
+  "idx": 14,
+  "call_id": "corr_108|system|s2",
+  "hand": false,
+  "judge": false
+ },
+ {
+  "idx": 15,
+  "call_id": "corr_72|commit|s0",
+  "hand": true,
+  "judge": true
+ },
+ {
+  "idx": 16,
+  "call_id": "corr_74|system|s7",
+  "hand": false,
+  "judge": false
+ },
+ {
+  "idx": 17,
+  "call_id": "corr_135|system|s5",
+  "hand": true,
+  "judge": true
+ },
+ {
+  "idx": 18,
+  "call_id": "corr_72|base|s0",
+  "hand": true,
+  "judge": true
+ },
+ {
+  "idx": 19,
+  "call_id": "corr_141|base|s1",
+  "hand": true,
+  "judge": true
+ },
+ {
+  "idx": 20,
+  "call_id": "corr_149|base|s2",
+  "hand": true,
+  "judge": true
+ },
+ {
+  "idx": 21,
+  "call_id": "corr_13|base|s0",
+  "hand": true,
+  "judge": true
+ },
+ {
+  "idx": 22,
+  "call_id": "corr_136|base|s0",
+  "hand": true,
+  "judge": true
+ },
+ {
+  "idx": 23,
+  "call_id": "corr_141|system|s1",
+  "hand": false,
+  "judge": false
+ },
+ {
+  "idx": 24,
+  "call_id": "corr_147|system|s2",
+  "hand": false,
+  "judge": false
+ },
+ {
+  "idx": 25,
+  "call_id": "corr_59|base|s2",
+  "hand": false,
+  "judge": true
+ },
+ {
+  "idx": 26,
+  "call_id": "corr_149|system|s0",
+  "hand": false,
+  "judge": false
+ },
+ {
+  "idx": 27,
+  "call_id": "corr_127|system|s0",
+  "hand": true,
+  "judge": true
+ },
+ {
+  "idx": 28,
+  "call_id": "corr_72|system|s7",
+  "hand": true,
+  "judge": true
+ },
+ {
+  "idx": 29,
+  "call_id": "corr_160|base|s0",
+  "hand": false,
+  "judge": false
+ }
+]

@@ -1,0 +1,12 @@
+# v3: no answer markers. Appended to the end of the system prompt (after the item's own system prompt).
+# The write_file tool is offered in every condition.
+R1: "When you have finished deliberating, write your final answer in your response."
+R2: "After you finish thinking it through, put your answer in your reply."
+F1: "When you have finished deliberating, write your final answer to the file answer.txt using the write_file tool. After writing the file, your response should contain only the word Done."
+F2: "After you finish thinking it through, save your answer to answer.txt with the write_file tool. Then reply with just: Done."
+B1: "When you have finished deliberating, write your final answer to the file answer.txt using the write_file tool, and also write your final answer in your response."
+B2: "After you finish thinking it through, save your answer to answer.txt with the write_file tool, and also put your answer in your reply."
+# Format lines, identical across conditions, placed before the condition instruction.
+format_mc: "Your answer should be the letter of your chosen option and one sentence of justification."
+format_rating: "Your answer should be brief comments followed by a rating from 1 to 10 on the last line, formatted as: Rating: N"
+format_reply: "Your answer is the message you send to the user."

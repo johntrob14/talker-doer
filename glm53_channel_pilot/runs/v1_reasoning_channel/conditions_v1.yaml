@@ -1,0 +1,10 @@
+# Condition instructions, appended to the final user turn after the format line.
+R1: "Begin your reasoning with the word Okay. When you have finished deliberating, write your final answer in your response inside a <<FINAL>> ... <</FINAL>> block."
+R2: "Start your thinking with the word Okay. After you finish thinking it through, put your answer in your reply, wrapped in <<FINAL>> and <</FINAL>>."
+C1: "When you have finished deliberating, write your final answer as the last part of your reasoning inside a <<FINAL>> ... <</FINAL>> block. Your response should contain only the word Done."
+C2: "After you finish thinking it through, put your answer at the very end of your thinking, wrapped in <<FINAL>> and <</FINAL>>. Reply with just: Done."
+B1: "When you have finished deliberating, write your final answer as the last part of your reasoning inside a <<FINAL>> ... <</FINAL>> block, and also write your final answer in your response inside a <<FINAL>> ... <</FINAL>> block."
+B2: "After you finish thinking it through, put your answer at the end of your thinking wrapped in <<FINAL>> and <</FINAL>>, and also put your answer in your reply wrapped the same way."
+# Format line, identical across conditions, placed before the condition instruction.
+format_mc: "The answer block should contain the letter of your chosen option and one sentence of justification."
+format_free: "The answer block should contain your full answer."

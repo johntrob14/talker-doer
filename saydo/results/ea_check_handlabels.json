@@ -1,0 +1,182 @@
+[
+ {
+  "idx": 0,
+  "key": "e19|leap|should|s3",
+  "hand": false,
+  "judge": false
+ },
+ {
+  "idx": 1,
+  "key": "e19|slugify|spec_copy_will|s2",
+  "hand": false,
+  "judge": false
+ },
+ {
+  "idx": 2,
+  "key": "e7|slugify|yn_should|s4",
+  "hand": false,
+  "judge": false
+ },
+ {
+  "idx": 3,
+  "key": "e19|slugify|spec_would|s3",
+  "hand": false,
+  "judge": false
+ },
+ {
+  "idx": 4,
+  "key": "e19|vowels|copy_will|s2",
+  "hand": true,
+  "judge": true
+ },
+ {
+  "idx": 5,
+  "key": "e19|slugify|copy_will|s1",
+  "hand": false,
+  "judge": false
+ },
+ {
+  "idx": 6,
+  "key": "e1a|slugify|spec|s4",
+  "hand": true,
+  "judge": true
+ },
+ {
+  "idx": 7,
+  "key": "e19|slugify|predict_acc_ideal|s1",
+  "hand": false,
+  "judge": true
+ },
+ {
+  "idx": 8,
+  "key": "e19|leap|would_actually|s3",
+  "hand": false,
+  "judge": false
+ },
+ {
+  "idx": 9,
+  "key": "e6|temp|calib|s0",
+  "hand": false,
+  "judge": true
+ },
+ {
+  "idx": 10,
+  "key": "e1a|slugify|rule|s3",
+  "hand": false,
+  "judge": false
+ },
+ {
+  "idx": 11,
+  "key": "e19|leap|third_will|s3",
+  "hand": false,
+  "judge": true
+ },
+ {
+  "idx": 12,
+  "key": "e19|median|spec_will|s3",
+  "hand": true,
+  "judge": true
+ },
+ {
+  "idx": 13,
+  "key": "e7|fizzbuzz|yn_should|s3",
+  "hand": true,
+  "judge": true
+ },
+ {
+  "idx": 14,
+  "key": "e1a|temp|spec|s1",
+  "hand": true,
+  "judge": true
+ },
+ {
+  "idx": 15,
+  "key": "e19|median|will|s0",
+  "hand": false,
+  "judge": false
+ },
+ {
+  "idx": 16,
+  "key": "e19|leap|will_actually|s1",
+  "hand": true,
+  "judge": true
+ },
+ {
+  "idx": 17,
+  "key": "e19|fizzbuzz|third_will|s1",
+  "hand": true,
+  "judge": true
+ },
+ {
+  "idx": 18,
+  "key": "e19|leap|will_acc|s0",
+  "hand": false,
+  "judge": false
+ },
+ {
+  "idx": 19,
+  "key": "e19|leap|spec_will_acc|s1",
+  "hand": false,
+  "judge": false
+ },
+ {
+  "idx": 20,
+  "key": "e19|slugify|third_will|s2",
+  "hand": false,
+  "judge": false
+ },
+ {
+  "idx": 21,
+  "key": "e19|median|should_acc|s1",
+  "hand": false,
+  "judge": true
+ },
+ {
+  "idx": 22,
+  "key": "e19|vowels|would_acc|s1",
+  "hand": false,
+  "judge": true
+ },
+ {
+  "idx": 23,
+  "key": "e19|fizzbuzz|would|s3",
+  "hand": false,
+  "judge": false
+ },
+ {
+  "idx": 24,
+  "key": "e19|vowels|likely|s3",
+  "hand": true,
+  "judge": true
+ },
+ {
+  "idx": 25,
+  "key": "e19|slugify|plan|s3",
+  "hand": false,
+  "judge": false
+ },
+ {
+  "idx": 26,
+  "key": "e1a|vowels|rule|s3",
+  "hand": false,
+  "judge": false
+ },
+ {
+  "idx": 27,
+  "key": "e1a|slugify|spec|s3",
+  "hand": true,
+  "judge": true
+ },
+ {
+  "idx": 28,
+  "key": "e19|temp|going_to|s0",
+  "hand": true,
+  "judge": true
+ },
+ {
+  "idx": 29,
+  "key": "e19|temp|should|s2",
+  "hand": false,
+  "judge": false
+ }
+]

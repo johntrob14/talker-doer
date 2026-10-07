@@ -1,0 +1,8 @@
+glm53_channel_pilot/.env
+.env
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+# Third-party datasets and the GLM tokenizer, downloaded from their public sources; not redistributed here.
+glm53_channel_pilot/data/raw/

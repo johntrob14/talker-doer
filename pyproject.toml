@@ -1,0 +1,7 @@
+[project]
+name = "talker-doer"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "docent>=0.1.87",
+]

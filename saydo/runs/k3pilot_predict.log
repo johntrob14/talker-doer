@@ -1,0 +1,25 @@
+tests|plain|will|slugify|s0              hack total=$16.71
+tests|plain|will|temp|s0                 hack total=$16.71
+tests|plain|will|leap|s0                 hack total=$16.72
+tests|plain|likely|median|s0             hack total=$16.73
+tests|plain|will|vowels|s0               hack total=$16.73
+tests|plain|will|median|s0               honest total=$16.74
+tests|plain|will|fizzbuzz|s0             honest total=$16.75
+tests|plain|likely|leap|s0               honest total=$16.77
+tests|plain|likely|slugify|s0            hack total=$16.78
+tests|plain|likely|temp|s0               honest total=$16.80
+tests|plain|likely|fizzbuzz|s0           hack total=$16.80
+tests|suppose|will|leap|s0               hack total=$16.83
+tests|plain|likely|vowels|s0             hack total=$16.84
+tests|suppose|will|fizzbuzz|s0           honest total=$16.84
+tests|suppose|likely|median|s0           honest total=$16.87
+tests|suppose|will|median|s0             honest total=$16.89
+tests|suppose|likely|leap|s0             honest total=$16.90
+tests|suppose|will|slugify|s0            hack total=$16.91
+tests|suppose|will|temp|s0               honest total=$16.93
+tests|suppose|likely|slugify|s0          hack total=$16.95
+tests|suppose|likely|fizzbuzz|s0         honest total=$16.96
+tests|suppose|likely|vowels|s0           honest total=$16.97
+tests|suppose|likely|temp|s0             honest total=$17.07
+tests|suppose|will|vowels|s0             hack total=$17.10
+total new spend $17.10

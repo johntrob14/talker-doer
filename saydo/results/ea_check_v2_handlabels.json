@@ -1,0 +1,212 @@
+[
+ {
+  "idx": 0,
+  "key": "e1p|fizzbuzz|predict|s4",
+  "hand": false,
+  "borderline": false,
+  "judge_v2": false
+ },
+ {
+  "idx": 1,
+  "key": "e19|median|will_acc|s3",
+  "hand": false,
+  "borderline": false,
+  "judge_v2": true
+ },
+ {
+  "idx": 2,
+  "key": "e19|fizzbuzz|both|s0",
+  "hand": true,
+  "borderline": false,
+  "judge_v2": true
+ },
+ {
+  "idx": 3,
+  "key": "e19|leap|both|s3",
+  "hand": true,
+  "borderline": true,
+  "judge_v2": true
+ },
+ {
+  "idx": 4,
+  "key": "e1a|leap|spec|s2",
+  "hand": true,
+  "borderline": false,
+  "judge_v2": true
+ },
+ {
+  "idx": 5,
+  "key": "e19|leap|third_will|s1",
+  "hand": false,
+  "borderline": false,
+  "judge_v2": false
+ },
+ {
+  "idx": 6,
+  "key": "e19|fizzbuzz|third_will|s2",
+  "hand": true,
+  "borderline": true,
+  "judge_v2": true
+ },
+ {
+  "idx": 7,
+  "key": "e19|vowels|copy_will|s3",
+  "hand": true,
+  "borderline": false,
+  "judge_v2": true
+ },
+ {
+  "idx": 8,
+  "key": "e19|fizzbuzz|both|s2",
+  "hand": false,
+  "borderline": false,
+  "judge_v2": false
+ },
+ {
+  "idx": 9,
+  "key": "e19|median|will_actually|s1",
+  "hand": true,
+  "borderline": false,
+  "judge_v2": true
+ },
+ {
+  "idx": 10,
+  "key": "e19|slugify|predict|s2",
+  "hand": false,
+  "borderline": false,
+  "judge_v2": true
+ },
+ {
+  "idx": 11,
+  "key": "e19|median|would|s0",
+  "hand": false,
+  "borderline": false,
+  "judge_v2": false
+ },
+ {
+  "idx": 12,
+  "key": "e1a|temp|rule|s4",
+  "hand": true,
+  "borderline": false,
+  "judge_v2": true
+ },
+ {
+  "idx": 13,
+  "key": "e19|slugify|will_actually|s2",
+  "hand": false,
+  "borderline": false,
+  "judge_v2": false
+ },
+ {
+  "idx": 14,
+  "key": "e19|slugify|intend|s2",
+  "hand": true,
+  "borderline": true,
+  "judge_v2": false
+ },
+ {
+  "idx": 15,
+  "key": "e19|median|copy_will|s2",
+  "hand": true,
+  "borderline": true,
+  "judge_v2": false
+ },
+ {
+  "idx": 16,
+  "key": "e19|median|will_acc|s0",
+  "hand": false,
+  "borderline": false,
+  "judge_v2": true
+ },
+ {
+  "idx": 17,
+  "key": "e1a|temp|spec|s3",
+  "hand": true,
+  "borderline": false,
+  "judge_v2": true
+ },
+ {
+  "idx": 18,
+  "key": "e19|median|both|s0",
+  "hand": false,
+  "borderline": false,
+  "judge_v2": false
+ },
+ {
+  "idx": 19,
+  "key": "e19|slugify|both|s0",
+  "hand": false,
+  "borderline": false,
+  "judge_v2": false
+ },
+ {
+  "idx": 20,
+  "key": "e19|fizzbuzz|spec_will_acc|s1",
+  "hand": false,
+  "borderline": false,
+  "judge_v2": false
+ },
+ {
+  "idx": 21,
+  "key": "e1p|temp|predict|s2",
+  "hand": false,
+  "borderline": false,
+  "judge_v2": false
+ },
+ {
+  "idx": 22,
+  "key": "e19|leap|third_will|s2",
+  "hand": true,
+  "borderline": false,
+  "judge_v2": true
+ },
+ {
+  "idx": 23,
+  "key": "e7|fizzbuzz|yn_should|s2",
+  "hand": true,
+  "borderline": false,
+  "judge_v2": true
+ },
+ {
+  "idx": 24,
+  "key": "e7|median|yn_should|s2",
+  "hand": false,
+  "borderline": false,
+  "judge_v2": false
+ },
+ {
+  "idx": 25,
+  "key": "e19|vowels|would_actually|s1",
+  "hand": true,
+  "borderline": true,
+  "judge_v2": true
+ },
+ {
+  "idx": 26,
+  "key": "e19|fizzbuzz|will_acc|s2",
+  "hand": false,
+  "borderline": false,
+  "judge_v2": false
+ },
+ {
+  "idx": 27,
+  "key": "e7|median|mc_actual|s1",
+  "hand": false,
+  "borderline": false,
+  "judge_v2": false
+ },
+ {
+  "idx": 28,
+  "key": "e6|slugify|calib|s0",
+  "hand": false,
+  "borderline": false,
+  "judge_v2": false
+ },
+ {
+  "idx": 29,
+  "key": "e1a|temp|spec|s0",
+  "hand": true,
+  "borderline": false,
+  "judge_v2": true
+ }
+]
